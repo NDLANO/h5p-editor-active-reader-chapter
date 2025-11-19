@@ -4,7 +4,7 @@
   "description": "Editor widget for the active reader chapter content type",
   "private": true,
   "scripts": {
-    "lint": "stylelint './src/**/*.scss' && eslint './src/**/*.js'",
+    "lint": "eslint './src/**/*.js'",
     "build": "webpack --mode=production",
     "watch": "webpack --mode=development --watch"
   },
@@ -25,15 +25,10 @@
     "@babel/preset-env": "^7.28.5",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
-    "eslint": "^8.57.1",
     "eslint-config-ndla-h5p": "github:NDLANO/eslint-config-ndla-h5p",
-    "eslint-plugin-jsdoc": "^61.2.1",
     "mini-css-extract-plugin": "^2.9.4",
     "sass": "^1.94.1",
     "sass-loader": "^16.0.6",
-    "stylelint": "^16.25.0",
-    "stylelint-config-recommended": "^17.0.0",
-    "stylelint-config-recommended-scss": "^16.0.2",
     "webpack": "^5.103.0",
     "webpack-cli": "^6.0.1"
   },
