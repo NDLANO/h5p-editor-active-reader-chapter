@@ -1,6 +1,5 @@
 {
   "name": "h5peditor-active-reader-chapter",
-  "version": "1.0.0",
   "description": "Editor widget for the active reader chapter content type",
   "private": true,
   "scripts": {
